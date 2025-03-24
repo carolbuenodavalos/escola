@@ -20,7 +20,7 @@ export class LoginComponent {
 
   logar(){
     if(this.login.username == 'admin' && this.login.password == 'admin'){
-      this.router.navigate(['admin/escola']);
+      this.router.navigate(['admin']);
     }else
       alert('não deu certo'); 
   }
